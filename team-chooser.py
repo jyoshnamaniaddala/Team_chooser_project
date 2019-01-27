@@ -4,13 +4,13 @@ from random import choice
 
 #create a list of players from a file
 players = []
-file = open('players.txt', 'r')
+file = open('PlayersNames.txt', 'r')
 players = file.read().splitlines()
 print('Players:', players)
 
 #create a list of team names from a file
 teamNames = []
-file = open('teamNames.txt', 'r')
+file = open('TeamNames.txt', 'r')
 teamNames = file.read().splitlines()
 print('Team names:', teamNames)
 
